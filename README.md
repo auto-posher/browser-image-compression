@@ -99,7 +99,7 @@ You can download imageCompression from the [dist folder][dist].
 
 Alternatively, you can use a CDN like [delivrjs]:
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/browser-image-compression@2.0.2/dist/browser-image-compression.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@nifty_ai/browser-image-compression@2.0.2/dist/browser-image-compression.js"></script>
 ```
 
 
@@ -121,7 +121,7 @@ const options: Options = {
                                 // Please check the Caveat part for details.
   onProgress: Function,         // optional, a function takes one progress argument (percentage from 0 to 100) 
   useWebWorker: boolean,        // optional, use multi-thread web worker, fallback to run in main-thread (default: true)
-  libURL: string,               // optional, the libURL of this library for importing script in Web Worker (default: https://cdn.jsdelivr.net/npm/browser-image-compression/dist/browser-image-compression.js)
+  libURL: string,               // optional, the libURL of this library for importing script in Web Worker (default: https://cdn.jsdelivr.net/npm/@nifty_ai/browser-image-compression/dist/browser-image-compression.js)
   preserveExif: boolean,        // optional, use preserve Exif metadata for JPEG image e.g., Camera model, Focal length, etc (default: false)
 
   signal: AbortSignal,          // optional, to abort / cancel the compression
