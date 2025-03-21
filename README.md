@@ -1,3 +1,7 @@
+> **⚠️ FORK NOTICE:** This is a published fork that fixes iPad iOS detection (PR [#223](https://github.com/Donaldcwl/browser-image-compression/pull/223))
+> 
+> This fork resolves issue [#222](https://github.com/Donaldcwl/browser-image-compression/issues/222) where images were being converted to all black after compression on iPad Pro devices due to incorrect iOS detection.
+
 # Browser Image Compression
 [![npm](https://img.shields.io/npm/v/browser-image-compression.svg)](https://www.npmjs.com/package/browser-image-compression)
 [![npm](./coverage/badge.svg)](https://github.com/Donaldcwl/browser-image-compression)
