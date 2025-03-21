@@ -18,13 +18,13 @@
     "coverage-badges": "make-coverage-badge",
     "commit": "cz"
   },
-  "homepage": "https://github.com/Donaldcwl/browser-image-compression#readme",
+  "homepage": "https://github.com/auto-posher/browser-image-compression#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Donaldcwl/browser-image-compression"
+    "url": "git@github.com:auto-posher/browser-image-compression.git"
   },
   "bugs": {
-    "url": "https://github.com/Donaldcwl/browser-image-compression/issues"
+    "url": "https://github.com/auto-posher/browser-image-compression/issues"
   },
   "keywords": [
     "image compression",
