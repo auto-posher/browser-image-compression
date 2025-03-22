@@ -1,5 +1,5 @@
 {
-  "name": "@nifty_ai/browser-image-compression",
+  "name": "@superset-hq/browser-image-compression",
   "version": "2.0.4",
   "description": "Compress images in the browser",
   "main": "dist/browser-image-compression.js",
@@ -18,13 +18,13 @@
     "coverage-badges": "make-coverage-badge",
     "commit": "cz"
   },
-  "homepage": "https://github.com/auto-posher/browser-image-compression#readme",
+  "homepage": "https://github.com/superset-hq/browser-image-compression#readme",
   "repository": {
     "type": "git",
-    "url": "git@github.com:auto-posher/browser-image-compression.git"
+    "url": "git@github.com:superset-hq/browser-image-compression.git"
   },
   "bugs": {
-    "url": "https://github.com/auto-posher/browser-image-compression/issues"
+    "url": "https://github.com/superset-hq/browser-image-compression/issues"
   },
   "keywords": [
     "image compression",

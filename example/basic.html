@@ -100,14 +100,14 @@
     integrity="sha512-U2gvuX8NaNSc0MOOvd1CTMp/kuzhlJ8HJKWF4G8JAw66iH+1keU5Mrzzrnqktf1SphOCow6dy69sTdblJdI8mA=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script type="text/javascript"
-    src="https://cdn.jsdelivr.net/npm/@nifty_ai/browser-image-compression@latest/dist/browser-image-compression.js"></script>
+    src="https://cdn.jsdelivr.net/npm/@superset-hq/browser-image-compression@latest/dist/browser-image-compression.js"></script>
   <script>
     let selectedVersion = 'latest'
     function changeVersion(event) {
       document.querySelector("#version").innerHTML = 'loading...';
       const script = document.createElement('script');
       selectedVersion = event.srcElement.value
-      script.src = "https://cdn.jsdelivr.net/npm/@nifty_ai/browser-image-compression@"+selectedVersion+"/dist/browser-image-compression.js";
+      script.src = "https://cdn.jsdelivr.net/npm/@superset-hq/browser-image-compression@"+selectedVersion+"/dist/browser-image-compression.js";
       document.body.appendChild(script);
       script.addEventListener('load', () => {
         document.querySelector("#version").innerHTML = imageCompression.version;
@@ -145,7 +145,7 @@
         useWebWorker: useWebWorker,
         onProgress: onProgress,
         preserveExif: true,
-        libURL: "https://cdn.jsdelivr.net/npm/@nifty_ai/browser-image-compression@"+selectedVersion+"/dist/browser-image-compression.js"
+        libURL: "https://cdn.jsdelivr.net/npm/@superset-hq/browser-image-compression@"+selectedVersion+"/dist/browser-image-compression.js"
       };
       if (controller) {
         options.signal = controller.signal;
