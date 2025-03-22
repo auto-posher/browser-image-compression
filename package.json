@@ -1,6 +1,6 @@
 {
   "name": "@superset-hq/browser-image-compression",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Compress images in the browser",
   "main": "dist/browser-image-compression.js",
   "module": "dist/browser-image-compression.mjs",
